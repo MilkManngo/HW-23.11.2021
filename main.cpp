@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
+
 float harmonicMean(float arr[], int n)
 {
 
@@ -20,9 +20,9 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
     cout << harmonicMean(arr, n);
     return 0;
-} */
+} 
 
-/*
+
 
 int gcd(int a, int b)
 {
@@ -46,8 +46,8 @@ cout<<"GCD of "<<a<<" and "<<b<<" is "<<gcd(a, b);
 return 0;
 }
 
-*/
-/*
+
+
 unsigned int GCD(unsigned int a,unsigned int b, unsigned int c){
     for(int r = min(a, min(b,c)) ; true ; --r)
         if( ! (a%r| b%r| c%r) ) return r;
@@ -62,5 +62,5 @@ cout<<"GCD of "<<a<<" and "<<b<<" and "<<c<<" is "<<GCD;
 return 0;
 }
 
-*/
+
 
